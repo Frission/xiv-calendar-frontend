@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    min-height: 400px;
+    row-gap: 20px;
+}
+
+.welcomeButton {
+    font-size: 2rem;
+    background-color: var(--color-primary);
+    border-radius: 30px;
+    padding: 8px 40px;
+    transition: scale 0.4s;
+}
+
+/* for mobile */
+@media (pointer: coarse) {
+    .welcomeButton {
+        transition: 0s;
+    }
+
+    .welcomeButton:active {
+        background-color: var(--color-primary-hover);
+    }
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+    .welcomeButton:hover {
+        scale: 1.06;
+        background-color: var(--color-primary-hover);
+        transition: scale 0.4s;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+    .logo {
+        p {
+            font-size: 3rem;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 12px;
+            margin-right: 4px;
+        }
+    }
+
+    .welcomeButton {
+        font-size: 1.4rem;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {}

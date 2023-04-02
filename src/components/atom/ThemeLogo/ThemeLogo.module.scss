@@ -1,0 +1,22 @@
+
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 6rem;
+    }
+
+    span {
+        color: var(--color-xiv-red);
+        margin-right: 4px;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 24px;
+        margin-right: 4px;
+    }
+}
