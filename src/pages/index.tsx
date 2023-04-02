@@ -4,7 +4,7 @@ import SplashTemplate from '@/components/template/SplashTemplate/SplashTemplate'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Splash() {
+export default function Home() {
   return (
     <>
       <Head>
