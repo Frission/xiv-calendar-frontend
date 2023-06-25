@@ -9,9 +9,9 @@
     row-gap: 20px;
 }
 
-.welcomeButton {
+.discordButton {
     font-size: 2rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-discord);
     border-radius: 30px;
     padding: 8px 40px;
     transition: scale 0.4s;
@@ -24,15 +24,15 @@
     }
 
     .welcomeButton:active {
-        background-color: var(--color-primary-hover);
+        background-color: var(--color-discord-hover);
     }
 }
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
-    .welcomeButton:hover {
+    .discordButton:hover {
         scale: 1.06;
-        background-color: var(--color-primary-hover);
+        background-color: var(--color-discord-hover);
         transition: scale 0.4s;
     }
 }

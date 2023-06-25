@@ -1,7 +1,7 @@
 declare global {
     namespace NodeJS {
         interface ProcessEnv {
-            DISCORD_OAUTH2_URL: string | undefined
+            NEXT_PUBLIC_DISCORD_OAUTH2_URL: string | undefined
         }
     }
 }
