@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import SplashTemplate from '@/components/template/SplashTemplate/SplashTemplate'
+import SplashTemplate from '@/features/splash/components/template/SplashTemplate'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Splash() {
 	return (
 		<>
 			<Head>
