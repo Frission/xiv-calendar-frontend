@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import SplashTemplate from '@/features/splash/components/template/SplashTemplate'
+import SplashTemplate from '@/features/splash/components/template/splash/SplashTemplate'
 
 const inter = Inter({ subsets: ['latin'] })
 
